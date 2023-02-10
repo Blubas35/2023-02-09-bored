@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What activities to do?</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+    </div>
+    
+    <form id="form">
+        <div class="type-wrapper">
+            <label for="activity-type">Select activity:</label>
+            <select name="activity-type" id="activity-type">
+        </div>
+        </select>
+        <div class="price-range">
+            <label for="price-range">Select your preferred price range (min, max):</label>
+            <input type="number" name="price-range" id="price-range-left" min="0" max="8">
+            <input type="number" id="price-range-right" min="0" max="10">
+        </div>
+        <div class="participants-wrapper">
+            <label for="participants">Number of Participants:</label>
+            <select name="participants" id="participants"></select>
+        </div>
+        <div class="accessibility-wrapper">
+            <label for="accessibility">Accessibility rating rane (min, max):</label>
+            <input type="number" name="price-range" id="accessibility-range-left" min="0" max="10">
+            <input type="number" id="accessibility-range-right" min="0" max="10">
+        </div>
+        <input type="submit" value="Get random activity!" id="input">
+        <input type="submit" value="Get selected activity!" id="selected-input">
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
