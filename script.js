@@ -39,7 +39,7 @@ function getActivity(type, minPrice, maxPrice, participants, minAccessibility, m
     activityWrapper.append(activityElement, activityTypeElement, participantElement, priceElement, linkElementWrapper, accessibilityElement)
     container.append(activityWrapper)
 
-    fetch(`http://www.boredapi.com/api/activity?type=${type}&minprice=${minPrice}&maxprice=${maxPrice}&participants=${participants}&minaccessibility=${minAccessibility}&maxaccessibility=${maxAccessibility}`)
+    fetch(`https://www.boredapi.com/api/activity?type=${type}&minprice=${minPrice}&maxprice=${maxPrice}&participants=${participants}&minaccessibility=${minAccessibility}&maxaccessibility=${maxAccessibility}`)
     .then(res => res.json())
     .then(data => {
         if (data.error) {
@@ -127,7 +127,7 @@ inputButton.addEventListener('click', (event) => {
     activityWrapper.append(activityElement, activityTypeElement, participantElement, priceElement, linkElementWrapper, accessibilityElement)
     container.append(activityWrapper)
 
-    fetch("http://www.boredapi.com/api/activity/")
+    fetch("https://www.boredapi.com/api/activity/")
         .then(res => res.json())
         .then(data => {
             const activity = data.activity
