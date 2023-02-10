@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 15px;
+    width: calc(100% / 3);
+    box-shadow: 1px 11px 35px 0px rgba(125,123,123,0.76);
+    padding: 25px;
+}
+h2 {
+    margin: 0 0 15px 0;
+  }
+.input-wrapper {
+      display: flex;
+      flex-direction: row;
+      column-gap: 15px;
+  }  
+.activity-wrapper.new {
+    color: white;
+    width: calc((100% - 100px) / 3 * 2);
+    box-shadow: 1px 11px 35px 0px rgba(125,123,123,0.76);
+    padding: 25px;
+    background-image: url('Busy\ Work\ copy.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+

@@ -9,6 +9,7 @@ const priceRangeInputLeft = document.querySelector('#price-range-left')
 const priceRangeInputRight = document.querySelector('#price-range-right')
 const priceAccessibilityInputLeft = document.querySelector('#accessibility-range-left')
 const priceAccessibilityInputRight = document.querySelector('#accessibility-range-right')
+// const outputImageWrapper = document.querySelector('.image-wrapper')
 
 
 let typesArr = ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"]
@@ -18,6 +19,10 @@ function getActivity(type, minPrice, maxPrice, participants, minAccessibility, m
 
     const activityWrapper = document.createElement('div')
     activityWrapper.className = 'activity-wrapper'
+    // const outputImageWrapper = document.createElement('img')
+    // outputImageWrapper.className = 'image-wrapper'
+    // outputImageWrapper.src = 'Busy Work copy.png'
+
     const activityElement = document.createElement('p')
     activityElement.className = 'activity-name'
     const activityTypeElement = document.createElement('p')
