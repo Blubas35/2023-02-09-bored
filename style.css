@@ -41,7 +41,7 @@ h2 {
     width: calc((100% - 100px) / 3 * 2);
     box-shadow: 1px 11px 35px 0px rgba(125,123,123,0.76);
     padding: 25px;
-    background-image: url('Busy\ Work\ copy.png');
+    /* background-image: url('Busy\ Work\ copy.png'); */
     background-size: 100%;
     background-repeat: no-repeat;
 }
