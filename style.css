@@ -37,7 +37,7 @@ h2 {
       column-gap: 15px;
   }  
 .activity-wrapper.new {
-    color: white;
+    /* color: white; */
     width: calc((100% - 100px) / 3 * 2);
     box-shadow: 1px 11px 35px 0px rgba(125,123,123,0.76);
     padding: 25px;
